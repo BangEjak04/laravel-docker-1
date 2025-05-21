@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/BangEjak04/laravel-docker.git'
+                git branch: 'main', url: 'https://github.com/BangEjak04/laravel-docker-1.git'
             }
         }
 
